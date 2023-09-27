@@ -1,6 +1,5 @@
 import { TitleText, RegularText } from "../../components/Typography";
 import { OrderConfirmedContainer, OrderDetailContainer } from "./styles";
-import illustration from "../../assets/Illustration.png"
 import { InfoWithIcon } from "../../components/InfoWithIcon";
 import { Clock, CurrencyDollar, MapPin } from "phosphor-react";
 import { useTheme } from "styled-components";
@@ -74,7 +73,7 @@ export function OrderConfirmedPage() {
           />
         </OrderDetailContainer>
 
-        <img src={illustration} />
+
       </section>
     </OrderConfirmedContainer>
   )
