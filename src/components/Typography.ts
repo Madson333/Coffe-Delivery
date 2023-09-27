@@ -3,12 +3,12 @@ import styled from "styled-components";
 interface TitleTextProps {
   color?: "title" | "subtitle" | "text";
   size?: "xl" | "l" | "m" | "s" | "xs";
-  weight?: "string" | "number";
+  weight?: string | number;
 }
 interface RegularTextProps {
   color?: "text" | "subtitle" | "label";
   size?: "l" | "m" | "s";
-  weight?: "string" | "number";
+  weight?: string | number;
 }
 
 export const TitleText = styled.h1<TitleTextProps>`

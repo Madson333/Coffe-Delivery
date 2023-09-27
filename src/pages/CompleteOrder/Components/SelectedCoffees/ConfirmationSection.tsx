@@ -1,3 +1,4 @@
+import { string } from "zod";
 import { Button } from "../../../../components/Button";
 import { RegularText } from "../../../../components/Typography";
 import { UseCart } from "../../../../hooks/useCart";
@@ -26,7 +27,7 @@ export function ConfirmationSection() {
         <RegularText>R$ {formattedDeliveryPrice}</RegularText>
       </div>
       <div>
-        <RegularText weight='700' color="subtitle" size="l">TOTAL</RegularText>
+        <RegularText weight="700" color="subtitle" size="l">TOTAL</RegularText>
         <RegularText weight='700' color="subtitle" size="l">R$ {formattedCartTotal}</RegularText>
       </div>
       <Button text="confirmar pedido" disabled={cartQuantity <= 0} type="submit" />

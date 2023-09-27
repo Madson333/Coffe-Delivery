@@ -23,11 +23,11 @@ export function CoffeeCard({ coffee }: CoffeeProps) {
   const [quantity, setQuantity] = useState(1);
 
   function handleIncrease() {
-    setQuantity(state => state + 1)
+    setQuantity((state: number) => state + 1)
   }
 
   function handleDecrease() {
-    setQuantity(state => state - 1)
+    setQuantity((state: number) => state - 1)
   }
 
   const { AddCoffeToCart } = UseCart();
