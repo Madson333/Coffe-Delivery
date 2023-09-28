@@ -1,5 +1,5 @@
 import { HeaderButton, HeaderButtonContainer, HearderContainer } from "./styles";
-import logo from "../../assets/logo.svg"
+import logo from "../../assets/lg.svg"
 import { MapPin, ShoppingCart } from "phosphor-react"
 import { NavLink } from "react-router-dom";
 import { UseCart } from "../../hooks/useCart";
@@ -18,7 +18,7 @@ export function Header() {
         <HeaderButtonContainer>
           <HeaderButton variant="purple">
             <MapPin size={20} weight="fill" />
-            Porto Alegre, RS
+            Lagarto, SE
           </HeaderButton>
 
           <NavLink to="/CompleteOrder">

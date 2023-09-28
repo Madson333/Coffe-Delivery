@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import IntroBackgroundImg from "./../../../../assets/background.png"
+import IntroBackgroundImg from "./../../../../assets/bg.png"
 import { rgba } from "polished"
 import { TitleText } from "../../../../components/Typography";
 import { Component } from "react";

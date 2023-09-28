@@ -1,5 +1,5 @@
 import { BenefitsContainer, IntroContainer, IntroContent, IntroTitle } from "./styles";
-import introImg from "../../../../assets/Coffee.svg"
+import introImg from "../../../../assets/cff.svg"
 import { RegularText } from "../../../../components/Typography";
 import { InfoWithIcon } from "../../../../components/InfoWithIcon";
 import { Coffee, Package, ShoppingCart, Timer } from "phosphor-react";
